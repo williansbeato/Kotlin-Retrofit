@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">街道應用</string>
+    <string name="btAdd">更多</string>
+    <string name="txtTarefa">任務</string>
+    <string name="txtDescricao">描述</string>
+</resources>

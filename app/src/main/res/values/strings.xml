@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">App das Street</string>
+    <string name="btAdd">ADD</string>
+    <string name="txtTarefa">Task</string>
+    <string name="txtDescricao">Description</string>
+
+</resources>
