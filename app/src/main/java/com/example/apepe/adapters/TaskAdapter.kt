@@ -50,7 +50,9 @@ class TaskAdapter( var tasks: MutableList<Task>, val listener: TaskAdapterListen
                        with(this@TaskAdapter){
                            listener.taskSalvar(task)
                        }
-                       notifyItemInserted(tasks.indexOf(task))
+//                       notifyItemInserted(tasks.indexOf(task))
+                       taskSelecionada =null
+                        notifyItemChanged(tasks.indexOf(task))
 
                    }else{
                        task.title = itemView.txtTitle.text.toString()
